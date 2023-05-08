@@ -1,0 +1,62 @@
+		****************************************************					
+				    Abstraction:
+		****************************************************
+----->	Abstraction is a process which displays only the information
+	needed and hides the unnecessary information. 
+----->	We can say that the main purpose of abstraction is data hiding.
+	Abstraction means selecting data from a large number of data to 
+	show the information needed, which helps in reducing programming 
+	complexity and efforts.
+	We can easily identify whether a class is an abstract class or not. 
+	A class which contains abstract keyword in its declaration then it 
+	is an Abstract Class.
+............
+Syntax:	    
+............
+	abstract class <class-name>{}
+....................
+Abstract Method:
+````````````````````
+	An abstract method is a method that is declared without an 
+	implementation (without braces, and followed by a semicolon), 
+	like this:
+
+			abstract void myMethod();
+
+	 In order to use an abstract method, you need to override that
+	 method in sub class.
+
+Let’s see an example:
+```````````````````````
+	To create an abstract class, just use the abstract keyword
+	before the class keyword, in the class declaration.
+
+package abstractClass;
+// Here class is abstract
+public abstract class AbstractSuperClass {
+// myMethod() is an abstract method
+abstract void myMethod(); 
+}
+....................
+code for example:-
+....................
+Abstract class example:
+
+	//abstract parent class 
+       	Abstract class animal {
+        //abstract method 
+    	public abstract void sound ( ) ;
+        }
+     	Public class lion extends animal {
+     	Public void sound ( ) {
+	System.out.println (“ roar “ );
+	}
+	public Static void main ( String args [ ] ) {
+	animal obj = new lion ( );
+	obj. sound ();
+	}
+	}
+~~~~~~~~~
+Output: |
+Roar	|
+~~~~~~~~~

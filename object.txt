@@ -1,0 +1,59 @@
+	--------------------------------------------------------------
+		******************Object*******************
+	--------------------------------------------------------------
+Definition:-
+************
+	----->	Objects are always called instances of a class. 
+	----->	Objects are created from class in java or any other language. 
+	----->  Objects are abstract data types [i.e, objects' behavior is 
+		defined by a set of values and operations.]
+
+       ------->	These objects always correspond to things found in the real 
+		world, i.e, real entiles.  So, they are also called a run 
+		time entity of the world.these are self contained which consists 
+		of methods and properties which makes data useful. 
+		Objects can be both physical and logical data. 
+ 
+       ------->	It contains addresses and takes up some space in memory.
+		Some of exmaples of ojectives are dog, chair, tree,etc.
+
+	When we treat animals as objects, it has states like colour, name, breed etc.,
+	and behaviors such as eating wagging the tail etc.
+
+	Suppose, wehave created a class called My book, we specify the class name 
+	followed by the object name, and we use the keyword new.
+````````````
+Example 1:
+```````````` 
+	public class Mybook {
+	int x = 10;
+	public statci void main(String args[]); 
+	{
+	Mybook Myobj = new Mybook ();
+	System.out.println(Myobj.x);
+	}
+	}
+
+	In the above example, a new object is created, and it return the
+	value of x which may be the number of books.
+
+		``````````````````````````````
+		Mybook Myobj = new Mybook ();
+		``````````````````````````````
+	This is the statement used for creating objects.
+													
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   

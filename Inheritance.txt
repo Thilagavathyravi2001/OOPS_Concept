@@ -1,0 +1,41 @@
+	---------------------------------------------------------------
+		********************* Inheritance *****************
+	---------------------------------------------------------------
+Definition:-
+************
+----->	Inheritance is a method in which one object acquires/inherits 
+	another object’s properties, and inheritance also supports 
+	hierarchical classification. 
+----->	The idea behind this is that we can create new classes built on
+	existing classes, i.e., when you inherit from an existing class,
+	we can reuse methods and fields of the parent class. 	
+----->	Inheritance represents the parent-child relationship.
+
+	For example, a whale is a part of the classification of marine animals, 
+	which is part of class mammal, which is under that class of animal. 
+	We use hierarchical classification, i.e., top-down classification. 
+	If we want to describe a more specific class of animals such as mammals, 
+	they would have more specific attributes such as teeth; cold-blooded, 
+	warm-blooded, etc. This comes under the subclass of animals where animals 
+	come under superclass. The subclass is a class which inherits properties 
+	of the superclass. 
+	This is also called a derived class. A superclass is a base class or
+	parental class from which subclass inherits properties.
+
+	We use inheritance mainly for method overriding. To inherit a class, we 
+	use the extend 	keyword.
+
+	Three are three types of inheritance:
+	*************************************
+	-------------->	Single inheritance
+	-------------->	Multiple inheritance
+	-------------->	Hierarchical level 													
+
+
+
+
+
+
+
+
+

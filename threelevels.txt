@@ -1,0 +1,107 @@
+		****************************************************
+>>>> Single level
+..................		 
+	In this one class i.e., derived class inherits properties 
+	from its parental class. 
+	This enables code reusability and also adds new features to 
+	the code. 
+
+	Example: class b inherits properties from class a.
+
+	Class A is base or parental class and class b is derived class.
+
+class Animal{  
+void eat(){System.out.println("eating...");}  
+}  
+class Dog extends Animal{  
+void bark(){System.out.println("barking...");}  
+}  
+class TestInheritance{  
+public static void main(String args[]){  
+Dog d=new Dog();  
+d.bark();  
+d.eat();  
+}}  
+************
+Output:	   *
+---------- *
+barking... *
+eating...  *
+************
+
+* Multilevel
+````````````````
+	This one class is derived from another class which is also derived 
+	from another class i.e., this class has more than one parental class, 
+	hence it is called multilevel inheritance.
+
+Syntax:
+*******
+class Animal{  
+void eat(){System.out.println("eating...");}  
+}  
+class Dog extends Animal{  
+void bark(){System.out.println("barking...");}  
+}  
+class BabyDog extends Dog{  
+void weep(){System.out.println("weeping...");}  
+}  
+class TestInheritance2{  
+public static void main(String args[]){  
+BabyDog d=new BabyDog();  
+d.weep();  
+d.bark();  
+d.eat();  
+}}  
+***********
+Output:	  *
+--------- *
+weeping...*
+barking...*
+eating... *
+***********
+
+*Hierarchical level 
+``````````````````````
+	When two or more classes inherits a single class, 
+	it is known as hierarchical inheritance. 
+	In the example given below, Dog and Cat classes 
+	inherits the Animal class, so there is 	hierarchical 
+	inheritance.
+
+Syntax:
+********
+class Animal{  
+void eat(){System.out.println("eating...");}  
+}  
+class Dog extends Animal{  
+void bark(){System.out.println("barking...");}  
+}  
+class Cat extends Animal{  
+void meow(){System.out.println("meowing...");}  
+}  
+class TestInheritance3{  
+public static void main(String args[]){  
+Cat c=new Cat();  
+c.meow();  
+c.eat();  
+//c.bark();//C.T.Error  
+}}  
+***********
+Output:   *
+----------*
+meowing...*
+eating... *
+***********
+*Hybrid inheritance
+```````````````````````
+	This is the combination of multiple and multilevel inheritance 
+	and in java multiple inheritance is not supported as it leads 
+	to ambiguity and this type of inheritance can only be achieved 
+	through interfaces.
+
+	Consider that class a is the parental or base class of class b 
+	and class c and in turn class b and class c are parental or base 
+	class of class d. Class b and class c are derived classes 	
+	from class a and class d is derived class from class b and class c.
+
